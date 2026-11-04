@@ -1,0 +1,12 @@
+{
+  "name": "lume",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --filter @lume/app dev",
+    "build": "pnpm --filter @lume/app build",
+    "typecheck": "pnpm --filter @lume/app typecheck",
+    "build:contract": "cd contract && cargo near build"
+  }
+}
+
