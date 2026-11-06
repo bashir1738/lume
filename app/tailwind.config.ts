@@ -8,7 +8,7 @@ const config: Config = {
         ink: "#142018",
         paper: "#f7f8f4",
         line: "#dce3db",
-        accent: "#b7d96b",
+        accent: "#b9dcf5",
         muted: "#66736a",
       },
       fontFamily: { sans: ["var(--font-geist-sans)", "Arial", "sans-serif"] },
@@ -17,4 +17,3 @@ const config: Config = {
   plugins: [],
 };
 export default config;
-
